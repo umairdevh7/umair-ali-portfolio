@@ -1,0 +1,37 @@
+/* App Global Layout */
+.app-wrapper {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+/* Footer */
+.footer-bar {
+  border-top: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface);
+  padding: 2.5rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-content {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.footer-subtext {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  opacity: 0.75;
+}
